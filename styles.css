@@ -1,0 +1,55 @@
+#logo {
+  height: auto;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .column {
+    column-count: 2;
+    column-gap: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .column {
+    column-count: 3;
+    column-gap: 2.5rem;
+  }
+}
+
+/* React slick */
+
+.slick-dots {
+  bottom: -50px;
+}
+
+li.slick-active {
+  height: auto;
+}
+
+li.slick-active span {
+  color: black !important;
+  font-weight: bold;
+}
+
+.active-icon span {
+  font-weight: bold;
+}
+
+.active-icon svg {
+  fill: rgba(0, 0, 0, 80%) !important;
+}
+
+/* Image Modal */
+
+.__react_modal_image__header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.__react_modal_image__icon_menu {
+  display: flex !important;
+  align-items: center;
+}
