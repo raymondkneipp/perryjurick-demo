@@ -13,7 +13,7 @@ const Textarea = ({ name, label = "label", type = "text", msg }) => {
 				name={name}
 				id={name}
 				type={type}
-				className="px-4 py-2 font-serif font-normal text-black bg-transparent border-4 border-double border-black resize-y border-opacity-10 text-opacity-70 focus:outline-none focus-visible:ring-4 focus-visible:ring-black focus-visible:ring-opacity-80 focus-visible:ring-offset-2"
+				className="px-4 py-2 font-serif font-normal text-black bg-transparent border-4 border-double border-black resize-y border-opacity-10 text-opacity-70 focus:outline-none focus-visible:ring-4 focus-visible:ring-black focus-visible:ring-opacity-80 focus-visible:ring-offset-2 rounded-none"
 				rows={4}
 			></textarea>
 			{msg ? (

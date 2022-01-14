@@ -7,7 +7,7 @@ const Quote = ({ children, author }) => (
 		<blockquote className="border-t-4 border-b-4 border-black border-double border-opacity-10">
 			<Container>
 				<div className="max-w-screen-sm mx-auto">
-					<Typography variant="h6" className="py-5 text-center">
+					<Typography variant="h4" className="py-10 text-center" script>
 						{children}
 					</Typography>
 

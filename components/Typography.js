@@ -5,11 +5,18 @@ const Typography = ({
 	variant,
 	className = "",
 	href = "/",
+	script,
 	...props
 }) => {
-	const headingBase = `font-normal text-black text-opacity-80 font-sc ${className}`;
-	const subHeadingBase = `font-normal text-black text-opacity-60 font-serif ${className}`;
-	const base = `font-serif font-normal text-black text-opacity-70 ${className}`;
+	const headingBase = `font-normal text-black text-opacity-80 ${
+		script ? "font-script" : "font-sc"
+	} ${className}`;
+	const subHeadingBase = `font-normal text-black text-opacity-60 ${
+		script ? "font-script" : "font-serif"
+	} ${className}`;
+	const base = `font-normal text-black text-opacity-70 ${
+		script ? "font-script" : "font-serif"
+	} ${className}`;
 	const focus =
 		"focus:outline-none focus-visible:ring-4 focus-visible:ring-black focus-visible:ring-opacity-80 ring-offset-2";
 

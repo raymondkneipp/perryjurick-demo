@@ -16,7 +16,9 @@ const Hero = () => (
 							</small>
 						</Typography>
 
-						<Typography variant="h5">Pure, Emotive Artistry</Typography>
+						<Typography variant="h5" script>
+							Pure, Emotive Artistry
+						</Typography>
 
 						<Typography variant="button" href="/inquire">
 							Inquire Today

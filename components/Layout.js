@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
 
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
 				<link
-					href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=Cormorant:wght@400;700&display=swap"
+					href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=Cormorant:wght@400;700&family=Great+Vibes&display=swap"
 					rel="stylesheet"
 				/>
 

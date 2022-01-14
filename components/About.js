@@ -8,7 +8,7 @@ const About = () => (
 		<Section>
 			<div className="max-w-screen-lg mx-auto">
 				<div className="grid items-center justify-center gap-y-5 md:gap-x-10 place-items-center md:grid-cols-2">
-					<Typography className="md:col-start-2" variant="h6">
+					<Typography className="md:col-start-2" variant="h6" script>
 						about the artist
 					</Typography>
 

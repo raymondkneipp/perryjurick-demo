@@ -14,7 +14,7 @@ const Discover = () => {
 				<Section>
 					<div className="max-w-screen-lg mx-auto">
 						<div className="grid items-center justify-center gap-y-5 md:gap-x-10 place-items-center md:grid-cols-2">
-							<Typography variant="h5" className="text-center">
+							<Typography variant="h5" className="text-center" script>
 								Pure, Emotive Artistry
 							</Typography>
 
@@ -81,7 +81,9 @@ const Discover = () => {
 						className="max-w-screen-lg mx-auto space-y-5 column"
 						// style={{ columnCount: 3, columnGap: "2.5rem" }}
 					>
-						<Typography variant="h3">Finding A Deeper Meaning</Typography>
+						<Typography variant="h3" script>
+							Finding A Deeper Meaning
+						</Typography>
 						<Typography variant="p" className="text-justify">
 							I've been a photographer for seven years, but originally I was a
 							writer. Art has always been a significant part of my life. I wrote
@@ -95,7 +97,9 @@ const Discover = () => {
 							someone and a deeper meaning in life. I feel as though photography
 							has brought me closer to that.
 						</Typography>
-						<Typography variant="h3">A Great Affinity</Typography>
+						<Typography variant="h3" script>
+							A Great Affinity
+						</Typography>
 						<Typography variant="p" className="text-justify">
 							There is something so beautiful in the movement of the human body.
 							The connection we feel to others. It's wondrous to me how there
@@ -109,7 +113,9 @@ const Discover = () => {
 							friend." Ever since that day I knew exactly what I was searching
 							for.
 						</Typography>
-						<Typography variant="h3">An Everlasting Moment</Typography>
+						<Typography variant="h3" script>
+							An Everlasting Moment
+						</Typography>
 						<Typography variant="p" className="text-justify">
 							So what will I capture that others won't? I want to capture the
 							affection that is only showed in private, but in a delicate way. I
@@ -121,7 +127,9 @@ const Discover = () => {
 							serenity, that intimacy, with each other every single day while
 							your souls combine.
 						</Typography>
-						<Typography variant="h3">Unspoken Love</Typography>
+						<Typography variant="h3" script>
+							Unspoken Love
+						</Typography>
 						<Typography variant="p" className="text-justify">
 							These images should act as a profession of the adoration you have
 							for each other. They should be a divulgence of the affinity you
